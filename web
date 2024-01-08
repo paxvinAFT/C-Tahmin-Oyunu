@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Platforms</title>
+    <style>
+        .highlight {
+            font-weight: bold;
+            text-decoration: overline underline;
+        }
+    </style>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header style="background-color:lightblue; padding:10px; text-align:center;">
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <h1 class="highlight">© 2024 RUSHYSAVI</h1>
+    
+    <!-- Hakkında Bölümü -->
+    <div style="background-color:lightgreen; padding:10px;">
+        <h2>AboutUs</h2>
+        <p class="highlight">It will be fixed in the next update </p>
+    </div>
+
+    <!-- Gallery of Cards -->
+    <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+        <div style="width: 400px; border: 1px solid black; margin: 10px; padding: 10px; background: url('background.gif') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255,0,0);
+            background: url('https://i.gifer.com/81RA.gif') no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover; https://i.gifer.com/81RA.gif">
+            <h2>Discord</h2>
+            <p>For any help, come to our Discord server, there are good software developers. Link: 
+            https://discord.com/invite/kVzWgCjf</p>
+        </div>
+        <div style="width: 400px; border: 1px solid black; margin: 10px; padding: 10px; background: url('background.gif') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255,0,0);
+            background: url('https://i.gifer.com/81O8.gif') no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;">
+            <h2>Instagram</h2>
+            <p>Our Instagram Addresses Note: Each of us is a different person, so we may not be able to answer
+            My ig: https://www.instagram.com/rushysavi?igsh=MTB6aW0xdzRnNDA2bg==
+            Ahmetcakir ig: https://www.instagram.com/ahmettcakirrofficial?igsh=azdpeGJzOTl2c2pj</p>
+        </div>
+    </div>
+
+    <h2>Platforms</h2>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://cdn2.downdetector.com/static/uploads/c/300/f0d8e/FB-f-Logo__blue_512.png" alt="Facebook" style="width:50px;height:50px;">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="https://static.dezeen.com/uploads/2023/07/x-logo-twitter-elon-musk_dezeen_2364_col_0-1-1704x958.jpg" alt="Twitter" style="width:50px;height:50px;">
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://i.etsystatic.com/22967160/r/il/42177f/4263838913/il_794xN.4263838913_2k3c.jpg" alt="Instagram" style="width:50px;height:50px;">
+            </a>
+        </li>
+         <li>
+            <a href="https://www.youtube.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/753px-Logo_of_YouTube_%282015-2017%29.svg.png?20200109235614" alt="Youtube" style="width:50px;height:50px;">
+            </a>
+        </li>
+    </ul>
+    
+    <!-- Haberler Bölümü -->
+    <div style="background-color:lightblue; padding:10px;">
+        <h2>News</h2>
+        <div class="news-item">
+            <img src="https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2166000/gazze-journalist-a-2166890_2.jpg" alt="Haber Resmi" style="width:100px;height:100px;">
+            <h3>Another journalist was killed in Israel's attacks on the Gaza Strip</h3>
+            <p>According to the statement made by the press office of the government in Gaza, Palestinian journalist Ali Salim Abu Acve lost his life in the Israeli bombardment while performing his duty in Gaza city.
+
+Abu Acwa's Condolences were expressed to his family and relatives.
+
+The number of journalists killed in Israel's attacks on the Gaza Strip since October 7 has increased to 110.</p>
+        </div>
+    </div>
+
+    <h2>MY IG LINK</h2>
+    <a href="https://www.instagram.com/rushysavi?igsh=MTB6aW0xdzRnNDA2bg==" target="_blank">
+        <img src="https://i.etsystatic.com/22967160/r/il/42177f/4263838913/il_794xN.4263838913_2k3c.jpg" alt="My Instagram" style="width:50px;height:50px;">
+    </a>
+    <div id="qrcode"></div>
+    <script type="text/javascript">
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "https://www.instagram.com/rushysavi",
+            width: 128,
+            height: 128
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer style="background-color:lightred; padding:10px; text-align:center;">
+        <p>© 2024 My Website</p>
+    </footer>
+</body>
+</html>
